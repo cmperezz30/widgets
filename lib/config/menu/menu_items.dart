@@ -16,6 +16,12 @@ class MenuItem {
 
 const appMenuItems = <MenuItem>[
   MenuItem(
+    title: 'Riverpod Counter',
+    subtitle: 'Introduccion a riverpod',
+    link: '/counter',
+    icon: Icons.add,
+  ),
+  MenuItem(
     title: 'Botones',
     subtitle: 'Varios botones en Flutter',
     link: '/buttons',
@@ -32,5 +38,41 @@ const appMenuItems = <MenuItem>[
     subtitle: 'Generales y controlados',
     link: '/progress',
     icon: Icons.refresh_rounded,
+  ),
+  MenuItem(
+    title: 'Snackbars y Dialogos',
+    subtitle: 'Indicadores en pantallas',
+    link: '/snackbars',
+    icon: Icons.info_outline,
+  ),
+  MenuItem(
+    title: 'Animated container',
+    subtitle: 'Stateful widget animado',
+    link: '/animated',
+    icon: Icons.check_box_outline_blank_outlined,
+  ),
+  MenuItem(
+    title: 'UI Controls + Tiles',
+    subtitle: 'Una serie de controles de flutter',
+    link: '/ui-controls',
+    icon: Icons.car_rental_outlined,
+  ),
+  MenuItem(
+    title: 'Introduccion a la aplicacion',
+    subtitle: 'Pequeño tutorial introductorio',
+    link: '/tutorial',
+    icon: Icons.accessibility_rounded,
+  ),
+  MenuItem(
+    title: 'InfiniteScroll y Pull',
+    subtitle: 'Listas infinitas y pull to refresh',
+    link: '/infinite',
+    icon: Icons.list_alt_rounded,
+  ),
+  MenuItem(
+    title: 'Cambiar tema',
+    subtitle: 'Cambiar tema de la aplicacion',
+    link: '/theme-changer',
+    icon: Icons.color_lens_outlined,
   ),
 ];
